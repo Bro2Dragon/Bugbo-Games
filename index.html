@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruv Games</title>
+
+    <!-- Include Ruffle via CDN -->
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+    <h1>Welcome to Bruv Games!</h1>
+
+    <!-- Embed the SWF file using Ruffle -->
+    <div id="ruffle-container">
+        <object data="papasfreezeria.swf" type="application/x-shockwave-flash" width="800" height="600">
+            <param name="movie" value="yourgame.swf" />
+            <param name="quality" value="high" />
+        </object>
+    </div>
+
+    <p>If the game doesn't load, please ensure you're using a modern browser.</p>
+</body>
+</html>
